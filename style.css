@@ -1,6 +1,7 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
-}
+body {
+      margin: 0;
+      height: 100vh;
+    }
 
 
 #pedro {
@@ -25,13 +26,16 @@ body{
     margin: 1rem;
 }
 
-#nicolau {
-    font:normal 10pt arial;
-    background:  rgb(0, 68, 255);
-    color: white;
-    width: 200px;
-    height: 180px;
-    line-height: 200px;
-    text-align: center;
-    margin: 1rem;
-}
+
+    #nicolau {
+      width: 200px;
+      height: 180px;
+      position: relative;
+      left: 7.2rem;
+      top: 6rem;
+      color: white;
+      background: rgb(0, 60, 255);
+      text-align: center;
+      transform: translate(-50%, -50%);
+      transition: left 0.1s ease, top 0.1s ease;
+    }
